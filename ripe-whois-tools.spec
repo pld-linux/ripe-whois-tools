@@ -6,6 +6,7 @@ Release:	2
 License:	distributable
 Group:		Applications/Networking
 Source0:	ftp://ftp.ripe.net/tools/%{name}-tools-%{version}.tar.gz
+# Source0-md5:	e6bf6cd019b2fd6e49409850b92c34ad
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
