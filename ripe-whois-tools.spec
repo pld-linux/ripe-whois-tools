@@ -52,9 +52,9 @@ u¿ywaj ¿adnej z dodatkowych flag.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-install whois $RPM_BUILD_ROOT/%{_bindir}/ripe-whois
-install networkupdate $RPM_BUILD_ROOT/%{_bindir}/networkupdate
-install cryptpw $RPM_BUILD_ROOT/%{_bindir}/cryptpw
+install whois $RPM_BUILD_ROOT%{_bindir}/ripe-whois
+install networkupdate $RPM_BUILD_ROOT%{_bindir}/networkupdate
+install cryptpw $RPM_BUILD_ROOT%{_bindir}/cryptpw
 
 %clean
 rm -rf $RPM_BUILD_ROOT
