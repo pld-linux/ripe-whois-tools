@@ -5,8 +5,6 @@ Version:	2.4
 Release:	1
 License:	distributable
 Group:		Applications/Networking
-Group(de):	Applikationen/Netzwerkwesen
-Group(pl):	Aplikacje/Sieciowe
 Source0:	ftp://ftp.ripe.net/tools/%{name}-tools-%{version}.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
