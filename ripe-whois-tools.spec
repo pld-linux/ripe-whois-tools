@@ -2,7 +2,7 @@ Summary:	The RIPE version of the whois client program
 Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois
 Version:	2.4
-Release:	1
+Release:	2
 License:	distributable
 Group:		Applications/Networking
 Source0:	ftp://ftp.ripe.net/tools/%{name}-tools-%{version}.tar.gz
@@ -55,14 +55,12 @@ install whois $RPM_BUILD_ROOT/%{_bindir}/ripe-whois
 install networkupdate $RPM_BUILD_ROOT/%{_bindir}/networkupdate
 install cryptpw $RPM_BUILD_ROOT/%{_bindir}/cryptpw
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz
+%doc README
 %attr(755,root,root) %{_bindir}/ripe-whois
 %attr(755,root,root) %{_bindir}/networkupdate
 %attr(755,root,root) %{_bindir}/cryptpw
