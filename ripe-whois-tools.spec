@@ -2,7 +2,7 @@ Summary:	The RIPE version of the whois client program
 Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois
 Version:	2.4
-Release:	3
+Release:	4
 License:	distributable
 Group:		Applications/Networking
 Source0:	ftp://ftp.ripe.net/tools/%{name}-tools-%{version}.tar.gz
