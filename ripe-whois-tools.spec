@@ -1,3 +1,5 @@
+# TODO:
+# - update to 3.1.1 (there is also _separate_ ipv6 version...)
 Summary:	The RIPE version of the whois client program
 Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois
