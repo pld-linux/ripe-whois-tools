@@ -3,7 +3,7 @@ Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois
 Version:	2.4
 Release:	1
-License:	Distributable
+License:	distributable
 Group:		Applications/Networking
 Group(de):	Applikationen/Netzwerkwesen
 Group(pl):	Aplikacje/Sieciowe
