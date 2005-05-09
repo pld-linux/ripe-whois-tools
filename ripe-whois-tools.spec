@@ -1,13 +1,11 @@
-# TODO:
-# - update to 3.1.1 (there is also _separate_ ipv6 version...)
 Summary:	The RIPE version of the whois client program
 Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
-Name:		ripe-whois
+Name:		ripe-whois-tools
 Version:	2.4
 Release:	4
 License:	distributable
 Group:		Applications/Networking
-Source0:	ftp://ftp.ripe.net/tools/%{name}-tools-%{version}.tar.gz
+Source0:	ftp://ftp.ripe.net/tools/%{name}-%{version}.tar.gz
 # Source0-md5:	e6bf6cd019b2fd6e49409850b92c34ad
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
