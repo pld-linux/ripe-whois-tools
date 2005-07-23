@@ -41,7 +41,7 @@ przez serwery whois inne ni¿ RIPE. Aby odpytaæ inne serwery whois, nie
 u¿ywaj ¿adnej z dodatkowych flag.
 
 %prep
-%setup -q -c %{name} -n %{name}
+%setup -q -c -n %{name}
 
 %build
 %{__cc} %{rpmcflags} %{rpmldflags} -ansi -pedantic -DRIPE -DGLIBC whois.c -o whois
