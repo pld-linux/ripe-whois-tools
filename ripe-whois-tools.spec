@@ -1,5 +1,5 @@
 Summary:	The RIPE version of the whois client program
-Summary(pl.UTF-8):   Program do odpytywania bazy whois (stworzony przez RIPE)
+Summary(pl.UTF-8):	Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois-tools
 Version:	2.4
 Release:	4
