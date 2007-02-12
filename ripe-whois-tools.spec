@@ -1,5 +1,5 @@
 Summary:	The RIPE version of the whois client program
-Summary(pl):	Program do odpytywania bazy whois (stworzony przez RIPE)
+Summary(pl.UTF-8):   Program do odpytywania bazy whois (stworzony przez RIPE)
 Name:		ripe-whois-tools
 Version:	2.4
 Release:	4
@@ -25,20 +25,20 @@ supported by non RIPE whois servers. In cases where you use this
 client to query non RIPE whois servers, you should not use any of
 these flags.
 
-%description -l pl
+%description -l pl.UTF-8
 Wersja RIPE programu whois.
 
-Ta wersja jest pomy¶lana dla europejskich u¿ytkowników, poniewa¿ mo¿e
-odpytywaæ serwer whois RIPE z rozszerzonymi mo¿liwo¶ciami whois
-zamiast serwera standardowego protoko³u whois. Program jest w pe³ni
-kompatybilny ze standardowym protoko³em, wiêc mo¿e byæ u¿ywany jako
-domy¶lny program whois.
+Ta wersja jest pomyÅ›lana dla europejskich uÅ¼ytkownikÃ³w, poniewaÅ¼ moÅ¼e
+odpytywaÄ‡ serwer whois RIPE z rozszerzonymi moÅ¼liwoÅ›ciami whois
+zamiast serwera standardowego protokoÅ‚u whois. Program jest w peÅ‚ni
+kompatybilny ze standardowym protokoÅ‚em, wiÄ™c moÅ¼e byÄ‡ uÅ¼ywany jako
+domyÅ›lny program whois.
 
-Ten program bierze pod uwagê trochê dodatkowych flag, których
-standardowy whois nie obs³uguje. Uruchom 'whois' bez argumentów aby
-zobaczyæ ich obja¶nienie. Wiêkszo¶æ z tych flag NIE jest obs³ugiwana
-przez serwery whois inne ni¿ RIPE. Aby odpytaæ inne serwery whois, nie
-u¿ywaj ¿adnej z dodatkowych flag.
+Ten program bierze pod uwagÄ™ trochÄ™ dodatkowych flag, ktÃ³rych
+standardowy whois nie obsÅ‚uguje. Uruchom 'whois' bez argumentÃ³w aby
+zobaczyÄ‡ ich objaÅ›nienie. WiÄ™kszoÅ›Ä‡ z tych flag NIE jest obsÅ‚ugiwana
+przez serwery whois inne niÅ¼ RIPE. Aby odpytaÄ‡ inne serwery whois, nie
+uÅ¼ywaj Å¼adnej z dodatkowych flag.
 
 %prep
 %setup -q -c
